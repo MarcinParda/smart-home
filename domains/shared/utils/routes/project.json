@@ -1,0 +1,19 @@
+{
+  "name": "routes",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "domains/shared/utils/routes/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/vite:build",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/domains/shared/utils/routes",
+        "main": "domains/shared/utils/routes/src/index.ts",
+        "tsConfig": "domains/shared/utils/routes/tsconfig.lib.json",
+        "assets": ["domains/shared/utils/routes/*.md"]
+      }
+    }
+  }
+}
