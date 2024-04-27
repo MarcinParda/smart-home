@@ -2,3 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 /* You can add global styles to this file, and also import other style files */
+@layer base {
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/public/fonts/Inter.woff2) format('woff2');
+  }
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+}
