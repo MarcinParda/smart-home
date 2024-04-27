@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@smart-home/device-feature-notifications": [
+        "domains/device-feature-notifications/src/index.ts"
+      ],
       "@smart-home/feature-device-dashboard": [
         "domains/device/feature-device-dashboard/src/index.ts"
       ],
