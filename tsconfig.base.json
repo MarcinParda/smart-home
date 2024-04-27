@@ -24,6 +24,9 @@
       "@smart-home/feature-device-list": [
         "domains/device/feature-device-list/src/index.ts"
       ],
+      "@smart-home/feature-device-settings": [
+        "domains/device/feature-device-settings/src/index.ts"
+      ],
       "@smart-home/feature-device-sidebar": [
         "domains/device/feature-device-sidebar/src/index.ts"
       ],
