@@ -15,7 +15,13 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@smart-home/routes": ["domains/shared/utils/routes/src/index.ts"]
+      "@smart-home/feature-device-hub": [
+        "domains/device/feature-device-hub/src/index.ts"
+      ],
+      "@smart-home/routes": ["domains/shared/utils/routes/src/index.ts"],
+      "@smart-home/ui-device-dashboard": [
+        "domains/device/ui-device-dashboard/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]

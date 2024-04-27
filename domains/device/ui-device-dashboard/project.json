@@ -1,0 +1,9 @@
+{
+  "name": "ui-device-dashboard",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "domains/device/ui-device-dashboard/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project ui-device-dashboard --web",
+  "targets": {}
+}
