@@ -15,13 +15,19 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@smart-home/feature-device-dashboard": [
+        "domains/device/feature-device-dashboard/src/index.ts"
+      ],
       "@smart-home/feature-device-hub": [
         "domains/device/feature-device-hub/src/index.ts"
       ],
-      "@smart-home/routes": ["domains/shared/utils/routes/src/index.ts"],
-      "@smart-home/ui-device-dashboard": [
-        "domains/device/ui-device-dashboard/src/index.ts"
-      ]
+      "@smart-home/feature-device-list": [
+        "domains/device/feature-device-list/src/index.ts"
+      ],
+      "@smart-home/feature-device-sidebar": [
+        "domains/device/feature-device-sidebar/src/index.ts"
+      ],
+      "@smart-home/routes": ["domains/shared/utils/routes/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

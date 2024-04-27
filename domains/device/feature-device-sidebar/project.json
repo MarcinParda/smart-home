@@ -1,0 +1,9 @@
+{
+  "name": "feature-device-sidebar",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "domains/device/feature-device-sidebar/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project feature-device-sidebar --web",
+  "targets": {}
+}
