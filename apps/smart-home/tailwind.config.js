@@ -19,6 +19,9 @@ module.exports = {
           500: '#222D37',
           800: '#161C27',
         },
+        yellow: '#FFED48',
+        purple: '#825DFF',
+        green: '#00FEB6',
       },
     },
     fontFamily: {

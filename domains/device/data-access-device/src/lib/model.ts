@@ -3,7 +3,7 @@ export interface Device {
   roomId: string;
   zoneId: string;
   name: string;
-  type: string;
+  type: 'bulb' | 'media-player' | 'thermostat';
   model: string;
 }
 

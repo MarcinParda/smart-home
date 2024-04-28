@@ -12,7 +12,7 @@ export const createDevice = ({
     roomId: roomId,
     zoneId: zoneId,
     id: faker.string.uuid(),
-    name: faker.lorem.sentence(5),
+    name: faker.lorem.sentence(1),
     type: faker.helpers.arrayElement(['bulb', 'media-player', 'thermostat']),
     model: faker.helpers.arrayElement(['mt-2', 'mt-4', 'mt-8']),
   };
