@@ -1,3 +1,3 @@
 export function FeatureDeviceList() {
-  return <main className="flex-1 bg-gray-800">Device Dashboard</main>;
+  return <main className="flex-1 bg-gray-800">Device List</main>;
 }

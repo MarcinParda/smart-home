@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import DeviceFeatureNotifications from './device-feature-notifications';
+import { UIDeviceNotificationsPage } from './ui-device-notifications-page';
 
 describe('DeviceFeatureNotifications', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<DeviceFeatureNotifications />);
+    const { baseElement } = render(<UIDeviceNotificationsPage />);
     expect(baseElement).toBeTruthy();
   });
 });

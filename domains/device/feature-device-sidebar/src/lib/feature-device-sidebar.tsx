@@ -12,7 +12,7 @@ export function FeatureDeviceSidebar() {
             </ButtonIconLink>
           </li>
           <li>
-            <ButtonIconLink href="/settings" icon="@">
+            <ButtonIconLink href="/notifications" icon="@">
               Settings
             </ButtonIconLink>
           </li>

@@ -2,7 +2,7 @@ import { FeatureDeviceSidebar } from '@smart-home/feature-device-sidebar';
 import { FeatureDeviceList } from '@smart-home/feature-device-list';
 import { FeatureDeviceSettings } from '@smart-home/feature-device-settings';
 
-export function FeatureDeviceDashboard() {
+export function UiDeviceListPage() {
   return (
     <div className="min-h-screen w-full flex text-white">
       <FeatureDeviceSidebar />
@@ -11,4 +11,3 @@ export function FeatureDeviceDashboard() {
     </div>
   );
 }
-export default FeatureDeviceDashboard;

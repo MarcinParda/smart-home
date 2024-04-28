@@ -15,17 +15,14 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@smart-home/device-feature-notifications": [
-        "domains/device-feature-notifications/src/index.ts"
-      ],
-      "@smart-home/feature-device-dashboard": [
-        "domains/device/feature-device-dashboard/src/index.ts"
-      ],
       "@smart-home/feature-device-hub": [
         "domains/device/feature-device-hub/src/index.ts"
       ],
       "@smart-home/feature-device-list": [
         "domains/device/feature-device-list/src/index.ts"
+      ],
+      "@smart-home/feature-device-notification-list": [
+        "domains/device/feature-device-notification-list/src/index.ts"
       ],
       "@smart-home/feature-device-settings": [
         "domains/device/feature-device-settings/src/index.ts"
@@ -33,7 +30,13 @@
       "@smart-home/feature-device-sidebar": [
         "domains/device/feature-device-sidebar/src/index.ts"
       ],
-      "@smart-home/routes": ["domains/shared/utils/routes/src/index.ts"]
+      "@smart-home/routes": ["domains/shared/utils/routes/src/index.ts"],
+      "@smart-home/ui-device-list-page": [
+        "domains/device/ui-device-list-page/src/index.ts"
+      ],
+      "@smart-home/ui-device-notifications-page": [
+        "domains/device/ui-device-notifications-page/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
