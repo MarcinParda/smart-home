@@ -20,9 +20,21 @@ export function FeatureDeviceSidebar() {
         <div>
           <div>Rooms +</div>
           <ul>
-            <li>Living Room</li>
-            <li>Bedroom</li>
-            <li>Kitchen</li>
+            <li>
+              <ButtonIconLink href="/settings" icon="@">
+                Kitchen
+              </ButtonIconLink>
+            </li>
+            <li>
+              <ButtonIconLink href="/settings" icon="@">
+                Living Room
+              </ButtonIconLink>
+            </li>
+            <li>
+              <ButtonIconLink href="/settings" icon="@">
+                Bedroom
+              </ButtonIconLink>
+            </li>
           </ul>
         </div>
       </div>
