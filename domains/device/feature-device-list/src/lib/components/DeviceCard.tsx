@@ -3,14 +3,17 @@ import classNames from 'classnames';
 
 interface DeviceCardProps {
   device: Device;
+  onDeviceCardClick: () => void;
 }
 
-export const DeviceCard = ({ device }: DeviceCardProps) => {
+export const DeviceCard = ({ device, onDeviceCardClick }: DeviceCardProps) => {
   return (
-    <div
+    <button
+      type="button"
+      onClick={onDeviceCardClick}
       key={device.id}
       className={classNames(
-        'flex flex-col w-[192px] h-[166px] p-4 rounded-3xl',
+        'flex flex-col w-[192px] h-[166px] p-4 rounded-3xl text-left',
         {
           'bg-yellow text-primary': device.type === 'bulb',
         },
@@ -31,6 +34,6 @@ export const DeviceCard = ({ device }: DeviceCardProps) => {
         <h3 className="text-lg font-semibold">{device.name}</h3>
         <div className="">{device.type}</div>
       </div>
-    </div>
+    </button>
   );
 };
