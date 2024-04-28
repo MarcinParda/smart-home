@@ -1,11 +1,21 @@
+import { ButtonIconLink } from '../components/ButtonIconLink/ButtonIconLink';
+
 export function FeatureDeviceSidebar() {
   return (
-    <nav className="w-72 bg-slate-800 flex flex-col py-16 px-6">
+    <nav className="w-72 bg-gray-500 flex flex-col py-16 px-6">
       <div className="flex-1">
         <h2 className="pb-12">Home</h2>
         <ul className="pb-4">
-          <li>Dashboard</li>
-          <li>Settings</li>
+          <li>
+            <ButtonIconLink href="/" icon="@" isActive>
+              Dashboard
+            </ButtonIconLink>
+          </li>
+          <li>
+            <ButtonIconLink href="/settings" icon="@">
+              Settings
+            </ButtonIconLink>
+          </li>
         </ul>
         <div>
           <div>Rooms +</div>
