@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@smart-home/data-access-device": [
+        "domains/device/data-access-device/src/index.ts"
+      ],
       "@smart-home/feature-device-hub": [
         "domains/device/feature-device-hub/src/index.ts"
       ],

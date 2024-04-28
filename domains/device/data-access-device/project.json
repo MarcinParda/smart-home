@@ -1,0 +1,19 @@
+{
+  "name": "data-access-device",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "domains/device/data-access-device/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/vite:build",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/domains/device/data-access-device",
+        "main": "domains/device/data-access-device/src/index.ts",
+        "tsConfig": "domains/device/data-access-device/tsconfig.lib.json",
+        "assets": ["domains/device/data-access-device/*.md"]
+      }
+    }
+  }
+}
