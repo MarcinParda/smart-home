@@ -3,7 +3,7 @@
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "domains/device/ui-device-list-page/src",
   "projectType": "library",
-  "tags": [],
+  "tags": ["domain:device", "type:ui"],
   "// targets": "to see all targets run: nx show project ui-device-list-page --web",
   "targets": {}
 }

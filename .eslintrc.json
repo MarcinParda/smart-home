@@ -13,8 +13,49 @@
             "allow": [],
             "depConstraints": [
               {
-                "sourceTag": "*",
-                "onlyDependOnLibsWithTags": ["*"]
+                "sourceTag": "domain:device",
+                "onlyDependOnLibsWithTags": ["domain:device", "domain:shared"]
+              },
+              {
+                "sourceTag": "domain:shared",
+                "onlyDependOnLibsWithTags": ["domain:shared"]
+              },
+              {
+                "sourceTag": "type:utils",
+                "onlyDependOnLibsWithTags": []
+              },
+              {
+                "sourceTag": "type:data-access",
+                "onlyDependOnLibsWithTags": ["type:utils"]
+              },
+              {
+                "sourceTag": "type:ui",
+                "onlyDependOnLibsWithTags": ["type:utils", "type:data-access", "type:ui-shared"]
+              },
+              {
+                "sourceTag": "type:ui-shared",
+                "onlyDependOnLibsWithTags": ["type:utils", "type:data-access"]
+              },
+              {
+                "sourceTag": "type:feature",
+                "onlyDependOnLibsWithTags": [
+                  "type:utils",
+                  "type:data-access",
+                  "type:ui"
+                ]
+              },
+              {
+                "sourceTag": "type:feature",
+                "onlyDependOnLibsWithTags": ["domain:device", "domain:shared"]
+              },
+              {
+                "sourceTag": "type:app",
+                "onlyDependOnLibsWithTags": [
+                  "type:utils",
+                  "type:data-access",
+                  "type:ui",
+                  "type:feature"
+                ]
               }
             ]
           }

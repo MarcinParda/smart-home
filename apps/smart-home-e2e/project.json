@@ -4,6 +4,7 @@
   "projectType": "application",
   "sourceRoot": "apps/smart-home-e2e/src",
   "implicitDependencies": ["smart-home"],
+  "tags": ["type:app", "type:e2e"],
   "// targets": "to see all targets run: nx show project smart-home-e2e --web",
   "targets": {}
 }
