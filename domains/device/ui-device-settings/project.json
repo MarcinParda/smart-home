@@ -1,0 +1,9 @@
+{
+  "name": "ui-device-settings",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "domains/device/ui-device-settings/src",
+  "projectType": "library",
+  "tags": ["domain:device", "type:ui"],
+  "// targets": "to see all targets run: nx show project ui-device-settings --web",
+  "targets": {}
+}

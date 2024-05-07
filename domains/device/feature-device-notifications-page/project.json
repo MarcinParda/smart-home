@@ -1,0 +1,9 @@
+{
+  "name": "feature-device-notifications-page",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "domains/device/feature-device-notifications-page/src",
+  "projectType": "library",
+  "tags": ["domain:device", "type:feature"],
+  "// targets": "to see all targets run: nx show project feature-device-notifications-page --web",
+  "targets": {}
+}

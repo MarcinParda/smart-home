@@ -1,0 +1,9 @@
+{
+  "name": "feature-device-page",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "domains/device/feature-device-page/src",
+  "projectType": "library",
+  "tags": ["domain:device", "type:feature"],
+  "// targets": "to see all targets run: nx show project feature-device-page --web",
+  "targets": {}
+}
